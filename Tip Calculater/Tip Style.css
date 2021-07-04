@@ -1,0 +1,65 @@
+body {
+  background-color: aqua;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  width: 300px;
+  transform: translateX(-50%);
+  background-color: blue;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  padding: 9px;
+}
+.wrapper {
+  padding: 20px;
+}
+
+input,
+select {
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid blue;
+  padding: 10px;
+}
+
+input.focus,
+select {
+  border: 1px solid rgb(75, 75, 177);
+  outline: none;
+}
+select {
+  width: 88%;
+}
+button {
+  margin: 20px auto;
+  width: 150px;
+  height: 50px;
+  background-color: blueviolet;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+}
+.tip {
+  text-align: center;
+  font-size: 18px;
+  display: none;
+}
